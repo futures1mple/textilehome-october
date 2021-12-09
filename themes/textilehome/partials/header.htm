@@ -1,7 +1,7 @@
 <div class="orb-top-bar-frame">
     <div class="orb-content orb-top-bar">
-        <a href="index.html" class="orb-logo-frame">
-            <!-- image logo <img src="img/ui/logo.svg" alt="Orabel">-->
+        <a href="/" class="orb-logo-frame">
+            <!-- <img src="{{ 'assets/img/ui/logo.svg' | theme }}" alt="Orabel"> -->
             <!-- svg logo -->
             <svg viewBox="0 0 125 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -21,11 +21,11 @@
                             <a href="{{ 'about' | page }}">About</a>
                         </li>
                         <li class="orb-has-children {% if this.page.id == '.' %} orb-current {% endif %}">
-                            <a href="#">Portfolio</a>
+                            <a href="{{ 'portfolio' | page }}">Portfolio</a>
                         </li>
-                        <li class="orb-has-children {% if this.page.id == '.' %} orb-current {% endif %}">
+                        <!-- <li class="orb-has-children {% if this.page.id == '.' %} orb-current {% endif %}">
                             <a href="#">Blog</a>
-                        </li>
+                        </li> -->
                         <li class="orb-has-children {% if this.page.id == 'contact' %} orb-current {% endif %}">
                             <a href="{{ 'contact' | page }}">Contacts</a>
                         </li>

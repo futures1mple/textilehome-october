@@ -1,49 +1,77 @@
-title = "Contact"
-layout = "default"
-url = "/contact"
+title = "Contact" 
+layout = "default" 
+url = "/contact" 
+
 ==
 <div id="orb-dynamic-content" class="transition-fade">
-
     <div class="orb-page-frame orb-contact-2">
-
         {% partial 'header' %}
 
         <div class="orb-content">
-
             <div class="orb-grid">
                 <div class="orb-g-20 orb-sm-100">
                     <div class="rb-object-frame">
                         <div class="orb-photo-frame orb-obj-1">
-                            <img src="{{'assets/img/photo/42.jpg' | theme }}" alt="photo">
+                            <img
+                                src="{{'assets/img/photo/42.jpg' | theme }}"
+                                alt="photo"
+                            />
                         </div>
                     </div>
                 </div>
                 <div class="orb-g-60 orb-sm-100">
                     <div class="orb-form-frame">
                         <div class="orb-form-content">
-                            <form method="POST" id="form" action="https://ultimatewebsolutions.net/orabel/php/send.php">
+                            <form
+                                method="POST"
+                                id="form"
+                                action="https://ultimatewebsolutions.net/orabel/php/send.php"
+                            >
                                 <div class="orb-grid orb-padding-grid">
                                     <div class="orb-g-50 orb-sm-100">
                                         <div class="orb-group-input">
-                                            <input type="text" name="name" placeholder="Name" data-parsley-pattern="^[a-zA-Z\s.]+$" required>													
+                                            <input
+                                                type="text"
+                                                name="name"
+                                                placeholder="Name"
+                                                data-parsley-pattern="^[a-zA-Z\s.]+$"
+                                                required
+                                            />
                                         </div>
                                     </div>
                                     <div class="orb-g-50 orb-sm-100">
                                         <div class="orb-group-input">
-                                            <input type="email" name="email" placeholder="E-mail" required>
+                                            <input
+                                                type="email"
+                                                name="email"
+                                                placeholder="E-mail"
+                                                required
+                                            />
                                         </div>
                                     </div>
                                     <div class="orb-g-100">
                                         <div class="orb-group-input">
-                                            <textarea name="message" placeholder="Your message" data-parsley-pattern="^[a-zA-Z0-9\s.:,!?]+$" required></textarea>													
+                                            <textarea
+                                                name="message"
+                                                placeholder="Your message"
+                                                data-parsley-pattern="^[a-zA-Z0-9\s.:,!?]+$"
+                                                required
+                                            ></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="orb-form-bottom">
                                     <button class="orb-submit-btn">
-                                        <img src="{{'assets/img/ui/arrow-2.svg' | theme }}" alt="arrow" class="orb-arrow">
+                                        <img
+                                            src="{{'assets/img/ui/arrow-2.svg' | theme }}"
+                                            alt="arrow"
+                                            class="orb-arrow"
+                                        />
                                     </button>
-                                    <p>I`m open to cooperation <br>and new interesting offers</p>
+                                    <p>
+                                        I`m open to cooperation <br />and new
+                                        interesting offers
+                                    </p>
                                 </div>
                             </form>
                         </div>
@@ -53,21 +81,29 @@ url = "/contact"
                     <div class="orb-position-fix">
                         <div>
                             <div class="orb-photo-frame orb-obj-2">
-                                <img src="{{'assets/img/photo/43.jpg' | theme }}" alt="photo">
+                                <img
+                                    src="{{'assets/img/photo/43.jpg' | theme }}"
+                                    alt="photo"
+                                />
                             </div>
-                            <h1>Contact <br>with Me</h1>
+                            <h1>Contact <br />with Me</h1>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="orb-instagram-frame">
                 <div class="orb-line"></div>
-                <a href="https://www.instagram.com/" target="_blank" data-no-swup><img src="{{'assets/img/ui/instagram-1.svg' | theme }}" alt="instagram"></a>
+                <a
+                    href="https://www.instagram.com/textile.home.az/"
+                    target="_blank"
+                    data-no-swup
+                    ><img
+                        src="{{'assets/img/ui/instagram-1.svg' | theme }}"
+                        alt="instagram"
+                /></a>
             </div>
         </div>
+
+        {% partial 'right_menu' %}
     </div>
 </div>
-
-
-
-

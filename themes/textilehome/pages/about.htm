@@ -1,22 +1,32 @@
-title = "About"
+title = "About" 
 layout = "default"
-url = "/about"
+url = "/about" 
+
 ==
 
 <div id="orb-dynamic-content" class="transition-fade">
-
     <div class="orb-page-frame orb-about-3">
-
         {% partial 'header' %}
 
         <div class="orb-content">
-
             <div class="orb-grid orb-sm-reverse">
                 <div class="orb-g-33 orb-sm-100">
                     <div class="orb-left">
-                        <h2>As long as I can remember, I always loved to take pictures. Often watched fashion magazines. This is probably why I like taking pictures of models :)</h2>
-                        <a href="https://www.instagram.com/" target="_blank" data-no-swup class="orb-instagram">
-                            <img src="{{ 'assets/img/ui/instagram-2.svg' | theme }}" alt="Instagram">
+                        <h2>
+                            As long as I can remember, I always loved to take
+                            pictures. Often watched fashion magazines. This is
+                            probably why I like taking pictures of models :)
+                        </h2>
+                        <a
+                            href="https://www.instagram.com/textile.home.az/"
+                            target="_blank"
+                            data-no-swup
+                            class="orb-instagram"
+                        >
+                            <img
+                                src="{{ 'assets/img/ui/instagram-2.svg' | theme }}"
+                                alt="Instagram"
+                            />
                             <span>Instagram</span>
                         </a>
                     </div>
@@ -24,23 +34,34 @@ url = "/about"
                 <div class="orb-g-33 orb-sm-100">
                     <div class="rb-object-frame">
                         <div class="orb-photo-frame orb-obj-1">
-                            <img src="{{ 'assets/img/photo/39.jpg' | theme }}" alt="photo">
+                            <img
+                                src="{{ 'assets/img/photo/39.jpg' | theme }}"
+                                alt="photo"
+                            />
                         </div>
                         <div class="orb-deco"></div>
                     </div>
                 </div>
                 <div class="orb-g-33 orb-sm-100">
                     <div class="orb-right">
-                        <h1>Ashion photo of live characters, this is what I do better than others</h1>
+                        <h1>
+                            Ashion photo of live characters, this is what I do
+                            better than others
+                        </h1>
                         <div class="orb-position-fix">
                             <div class="orb-deco"></div>
                             <div class="orb-photo-frame orb-obj-2">
-                                <img src="{{ 'assets/img/photo/40.jpg' | theme }}" alt="photo">
+                                <img
+                                    src="{{ 'assets/img/photo/40.jpg' | theme }}"
+                                    alt="photo"
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        {% partial 'right_menu' %}
     </div>
 </div>
